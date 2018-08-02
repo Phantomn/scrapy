@@ -1,0 +1,33 @@
+1532900212377	geckodriver	INFO	geckodriver 0.21.0
+1532900212381	geckodriver	INFO	Listening on 127.0.0.1:38345
+1532900213386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MPC4TfBSKbWD"
+Error: no DISPLAY environment variable specified
+1532901131532	geckodriver	INFO	Listening on 127.0.0.1:60167
+1532901131551	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.d4o5U3XRnDYH
+1532901131552	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1532901131560	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44993
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
+1532901178510	geckodriver	INFO	geckodriver 0.21.0
+1532901178519	geckodriver	INFO	Listening on 127.0.0.1:33099
+1532901178552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sixMkTTEAelW"
+Error: no DISPLAY environment variable specified
+1532901259000	geckodriver	INFO	Listening on 127.0.0.1:56431
+1532901259019	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tNFGKsUVznRv
+1532901259020	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1532901259021	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41389
+Error: no DISPLAY environment variable specified
+1532901404820	geckodriver	INFO	Listening on 127.0.0.1:60457
+1532901405824	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GzqAUd7ubccS
+1532901405825	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1532901405826	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37491
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
+1532914039440	geckodriver	INFO	Listening on 127.0.0.1:40095
+1532914040446	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HLWXLlnw5wBQ
+1532914040447	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1532914040455	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40767
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
+1532930376427	geckodriver	INFO	Listening on 127.0.0.1:41789
+1532930376449	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0im0QhX5FUhZ
+1532930376450	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1532930376458	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32991
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
