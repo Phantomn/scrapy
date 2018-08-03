@@ -1,33 +1,454 @@
-1532900212377	geckodriver	INFO	geckodriver 0.21.0
-1532900212381	geckodriver	INFO	Listening on 127.0.0.1:38345
-1532900213386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MPC4TfBSKbWD"
-Error: no DISPLAY environment variable specified
-1532901131532	geckodriver	INFO	Listening on 127.0.0.1:60167
-1532901131551	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.d4o5U3XRnDYH
-1532901131552	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
-1532901131560	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44993
-Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
-1532901178510	geckodriver	INFO	geckodriver 0.21.0
-1532901178519	geckodriver	INFO	Listening on 127.0.0.1:33099
-1532901178552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sixMkTTEAelW"
-Error: no DISPLAY environment variable specified
-1532901259000	geckodriver	INFO	Listening on 127.0.0.1:56431
-1532901259019	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tNFGKsUVznRv
-1532901259020	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
-1532901259021	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41389
-Error: no DISPLAY environment variable specified
-1532901404820	geckodriver	INFO	Listening on 127.0.0.1:60457
-1532901405824	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GzqAUd7ubccS
-1532901405825	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
-1532901405826	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37491
-Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
-1532914039440	geckodriver	INFO	Listening on 127.0.0.1:40095
-1532914040446	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HLWXLlnw5wBQ
-1532914040447	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
-1532914040455	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40767
-Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
-1532930376427	geckodriver	INFO	Listening on 127.0.0.1:41789
-1532930376449	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0im0QhX5FUhZ
-1532930376450	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
-1532930376458	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32991
-Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/phantom/.Xauthority which is owned by phantom.)
+1533325156363	geckodriver	INFO	Listening on 127.0.0.1:36121
+1533325157365	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QJdJhUeR3bvC
+1533325157366	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1533325157367	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38161
+1533325158002	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533325158002	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533325158003	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533325158003	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533325158009	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533325158010	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533325158010	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533325158010	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533325158017	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533325158017	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533325158017	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533325158018	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533325159541	Marionette	FATAL	Remote protocol server failed to start: Error: Could not bind to port 2828 (NS_ERROR_SOCKET_ADDRESS_IN_USE) (chrome://marionette/content/server.js:88:17) JS Stack trace: set acceptConnections@server.js:88:17
+start@server.js:119:5
+init/<@marionette.js:439:9
+1533325159568	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+init/<()@jar:file:///usr/lib/firefox/omni.ja!/components/marionette.js:444
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+1533326216611	geckodriver	INFO	geckodriver 0.21.0
+1533326216621	geckodriver	INFO	Listening on 127.0.0.1:39315
+1533326216654	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kCe5IkHTBV79"
+*** You are running in headless mode.
+1533326217895	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326217896	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326217896	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326217897	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326217907	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326217907	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326217907	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326217908	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326217917	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326217917	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326217918	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326217918	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533326222632	Marionette	INFO	Listening on port 39149
+1533326222849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533326222984	Marionette	DEBUG	[2147483649] Frame script loaded
+1533326222993	Marionette	DEBUG	[2147483649] Frame script registered
+1533326225094	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533326225529	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+1533326228271	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+1533326233214	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1533326233216	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1533326233216	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1533326233216	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1533326233218	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1533326235045	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533326235526	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533326235968	Marionette	INFO	Stopped listening on port 39149
+[Parent 10803, Gecko_IOThread] WARNING: pipe error: 파이프가 깨어짐: file /build/firefox-q3jHVh/firefox-62.0~b14+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+1533326306797	geckodriver	INFO	geckodriver 0.21.0
+1533326306806	geckodriver	INFO	Listening on 127.0.0.1:50329
+1533326306838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UdqgzSVyw5nX"
+*** You are running in headless mode.
+1533326307741	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326307741	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326307742	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326307742	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326307762	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326307762	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326307763	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326307763	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326307771	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326307772	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326307772	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326307772	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533326309486	Marionette	INFO	Listening on port 46381
+1533326309677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533326309724	Marionette	DEBUG	[2147483649] Frame script loaded
+1533326309759	Marionette	DEBUG	[2147483649] Frame script registered
+1533326310831	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533326311106	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+1533326316956	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533326320766	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1533326320770	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1533326320783	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1533326320810	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1533326320817	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1533326322286	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1533326325020	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533326325341	Marionette	INFO	Stopped listening on port 46381
+1533326460521	geckodriver	INFO	geckodriver 0.21.0
+1533326460532	geckodriver	INFO	Listening on 127.0.0.1:40249
+1533326461537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pkHmKGDBBQya"
+*** You are running in headless mode.
+1533326462494	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326462494	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326462494	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326462495	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326462515	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326462515	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326462516	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326462517	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326462525	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326462525	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326462526	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326462526	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533326464131	Marionette	INFO	Listening on port 40203
+1533326464176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533326464273	Marionette	DEBUG	[2147483649] Frame script loaded
+1533326464277	Marionette	DEBUG	[2147483649] Frame script registered
+1533326465200	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533326467765	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+1533326473280	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533326478603	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1533326478604	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1533326478605	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1533326478605	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1533326478606	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1533326481352	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1533326484749	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533326485070	Marionette	INFO	Stopped listening on port 40203
+1533326485376	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1533326770316	geckodriver	INFO	geckodriver 0.21.0
+1533326770323	geckodriver	INFO	Listening on 127.0.0.1:55051
+1533326771324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Am7oTZx2PPJU"
+*** You are running in headless mode.
+1533326772262	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326772262	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326772262	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326772263	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326772282	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326772282	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326772283	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326772283	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326772292	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326772292	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326772292	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326772293	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533326773953	Marionette	INFO	Listening on port 34985
+1533326774051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533326774161	Marionette	DEBUG	[2147483649] Frame script loaded
+1533326774173	Marionette	DEBUG	[2147483649] Frame script registered
+1533326774860	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533326775010	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+1533326781664	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+1533326785436	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1533326785437	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1533326785437	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1533326785438	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1533326785439	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1533326785866	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533326791788	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533326791988	Marionette	INFO	Stopped listening on port 34985
+1533326897553	geckodriver	INFO	geckodriver 0.21.0
+1533326897560	geckodriver	INFO	Listening on 127.0.0.1:47199
+1533326897590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gh8C6JvgR97Z"
+*** You are running in headless mode.
+1533326898459	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326898460	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533326898460	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326898460	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326898479	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326898479	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533326898480	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326898480	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533326898488	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326898488	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533326898489	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533326898489	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533326899968	Marionette	INFO	Listening on port 45075
+1533326900014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533326900077	Marionette	DEBUG	[2147483649] Frame script loaded
+1533326900079	Marionette	DEBUG	[2147483649] Frame script registered
+1533326900842	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533326901007	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+1533326905701	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533326909147	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1533326910497	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1533326910509	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1533326910514	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1533326910528	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1533326910541	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1533326916488	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533326916729	Marionette	INFO	Stopped listening on port 45075
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1533327094280	geckodriver	INFO	geckodriver 0.21.0
+1533327094285	geckodriver	INFO	Listening on 127.0.0.1:45423
+1533327095287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fZEBRDIWhThO"
+*** You are running in headless mode.
+1533327096290	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533327096290	addons.xpi-utils	WARN	Add-on langpack-ko@firefox.mozilla.org is not compatible with application version.
+1533327096290	addons.xpi-utils	WARN	addMetadata: Add-on langpack-ko@firefox.mozilla.org is invalid: Error: Extension langpack-ko@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533327096291	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533327096300	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533327096301	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1533327096301	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Extension langpack-en-GB@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533327096301	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1533327096313	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533327096313	addons.xpi-utils	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1533327096313	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Extension langpack-en-ZA@firefox.mozilla.org is not correctly signed (resource://gre/modules/addons/XPIDatabase.jsm:2398:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2398:17
+processFileChanges@XPIDatabase.jsm:2730:21
+checkForChanges@XPIProvider.jsm:2535:34
+startup@XPIProvider.jsm:2116:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2808:5
+observe@addonManager.js:66:9
+1533327096314	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2579: TypeError: addon is null
+1533327097819	Marionette	INFO	Listening on port 38791
+1533327098025	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533327098101	Marionette	DEBUG	[2147483649] Frame script loaded
+1533327098110	Marionette	DEBUG	[2147483649] Frame script registered
+1533327098763	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1533327098911	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript warning: https://r4.bithumb.com/resources/js/jquery-1.9.1.min.js?v=bithumb1, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+1533327106422	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.bithumb.com/
+JavaScript warning: https://r2.bithumb.com/resources/js/comm.js?v=bithumb34, line 3326: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-46635015-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8650966, line 69: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1533327112764	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1533327112765	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1533327112765	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1533327112793	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1533327112794	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1533327113691	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1533327117454	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.bithumb.com/
+1533327117882	Marionette	INFO	Stopped listening on port 38791
+1533327118116	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1533327118148	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
