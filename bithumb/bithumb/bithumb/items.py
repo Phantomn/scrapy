@@ -13,4 +13,3 @@ class BithumbItem(scrapy.Item):
 	coinName = scrapy.Field()
 	coinPrice = scrapy.Field()
 	date = scrapy.Field()
-	pass

@@ -65,7 +65,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'bithumb.pipelines.BithumbPipeline': 300,
+    'bithumb.pipelines.BithumbJsonPipeline': 300,
+    'bithumb.pipelines.BithumbSQLPipeline':100,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
